@@ -16,7 +16,7 @@ import heroImg6 from '../assets/heroImg6.jpeg'
 import heroImg7 from '../assets/heroImg7.jpeg'
 import heroImg8 from '../assets/heroImg8.jpeg'
 import heroImg9 from '../assets/heroImg9.jpeg'
-import logo from '../assets/WATCHROOM.ORG-first.PNG'
+import logo from "../assets/watchroom-first.png";
 import SignIn from './SignIn';
 
 const Landing = () => {
