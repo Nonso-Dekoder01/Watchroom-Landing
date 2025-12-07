@@ -37,14 +37,45 @@ const Landing = () => {
   }
 
 
-  const posters = [
-  { id: 1, img: heroImg4, title: "YOUNG SHELDON", desc: "Description for Movie A" },
-  { id: 2, img: heroImg5, title: "FAST & FURIOUS", desc: "Description for Movie B" },
-  { id: 3, img: heroImg6, title: "THE DARK KNIGHT", desc: "Description for Movie C" },
-  { id: 4, img: heroImg7, title: "TERMINATOR", desc: "Description for Movie D" },
-  { id: 5, img: heroImg8, title: "THE UMBRELLA ACADEMY", desc: "Description for Movie E" },
-  { id: 6, img: heroImg9, title: "WEDNESDAY", desc: "Description for Movie F" },
-];
+const posters = [
+  { 
+    id: 1,
+    img: heroImg4,
+    title: "YOUNG SHELDON",
+    desc: "Sheldon Cooper, a brilliant but socially awkward prodigy, tries to fit into a world that doesn’t understand him. Between skipping grades, navigating high school, and dealing with his loving but complicated family, he learns that intelligence alone doesn’t prepare you for the challenges of growing up."
+  },
+  { 
+    id: 2,
+    img: heroImg5,
+    title: "FAST & FURIOUS",
+    desc: "What begins as underground street racing evolves into world-saving missions as Dominic Toretto and his family face ruthless enemies, impossible heists, and high-speed battles across the globe. Loyalty, adrenaline, and the meaning of family fuel every moment."
+  },
+  { 
+    id: 3,
+    img: heroImg6,
+    title: "THE DARK KNIGHT",
+    desc: "As Gotham spirals into chaos, Batman confronts the Joker—a criminal mastermind who seeks to prove that anyone can fall into madness. With the city’s soul at stake, Bruce Wayne must push his limits, face moral dilemmas, and sacrifice more than he ever imagined."
+  },
+  { 
+    id: 4,
+    img: heroImg7,
+    title: "TERMINATOR",
+    desc: "In a desperate fight for humanity’s future, a relentless cyborg assassin travels from a post-apocalyptic world to eliminate the one person destined to save mankind. With time running out, survival depends on courage, sacrifice, and the will to change fate."
+  },
+  { 
+    id: 5,
+    img: heroImg8,
+    title: "THE UMBRELLA ACADEMY",
+    desc: "Reunited after years apart, a dysfunctional family of gifted siblings must confront their traumatic past while racing to stop an impending apocalypse. As secrets unravel and powers evolve, the fate of the world rests on their ability to work together—if they can."
+  },
+  { 
+    id: 6,
+    img: heroImg9,
+    title: "WEDNESDAY",
+    desc: "Sent to Nevermore Academy after a series of unusual incidents, Wednesday Addams battles supernatural threats, uncovers hidden conspiracies, and discovers the truth about her emerging abilities. With her sharp wit and darker instincts, she becomes the school’s most unlikely detective."
+  },
+]
+
 
 
 
@@ -63,32 +94,33 @@ const Landing = () => {
         setOpen(index)
     }
 
-    const accordionData = [
-        {
-            title: "What is Watchroom?",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident"
-        },
-        {
-            title: "How much does Watchroom cost?",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident"
-        },
-        {
-            title: "Where can I watch?",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur"
-        },
-        {
-            title: "How do I cancel?",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur"
-        },
-        {
-            title: "What can I watch on Watchroom?",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident"
-        },
-        {
-            title: "Is Watchroom good for kids?",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident, quisquam labore eum voluptatum neque soluta nihil mollitia voluptatem dignissimos recusandae iur, Ex quos nobis perferendis pariatur reiciendis, architecto repellendus provident"
-        },
-    ]
+const accordionData = [
+    {
+        title: "What is Watchroom?",
+        desc: "Watchroom is an online streaming platform that gives you unlimited access to movies, series, documentaries, and exclusive originals. You can watch on any device, anywhere, with no ads and no interruptions. Whether you're into action, comedy, drama, or family-friendly shows, Watchroom brings entertainment right to you."
+    },
+    {
+        title: "How much does Watchroom cost?",
+        desc: "Watchroom offers flexible subscription plans to suit every viewer. You can choose a monthly or yearly plan, and all plans include unlimited streaming on mobile, tablet, smart TV, and laptop. There are no hidden fees—just pick the plan that works best for you and start watching instantly."
+    },
+    {
+        title: "Where can I watch?",
+        desc: "You can watch Watchroom anywhere and anytime. Stream on your phone, tablet, laptop, desktop, or smart TV. You can also download your favorite titles to watch offline when you're on the go. All you need is an internet connection—or your downloaded content—and you're good to go."
+    },
+    {
+        title: "How do I cancel?",
+        desc: "Canceling your Watchroom subscription is easy. Simply go to your account settings, click on 'Manage Subscription,' and choose 'Cancel Membership.' There are no cancellation fees or commitments—you can leave anytime, and your access remains active until the end of your billing period."
+    },
+    {
+        title: "What can I watch on Watchroom?",
+        desc: "Watchroom offers a massive library of entertainment, including blockbuster movies, trending series, kids' shows, documentaries, stand-up comedy, and exclusive originals you won’t find anywhere else. New titles are added every week, so there's always something fresh to discover."
+    },
+    {
+        title: "Is Watchroom good for kids?",
+        desc: "Yes! Watchroom has a dedicated Kids Mode with family-friendly content suitable for all ages. Parents can create supervised profiles with controls that limit access to mature content. Your children can enjoy safe and fun entertainment while you stay in control of what they watch."
+    },
+]
+
   
 
 
@@ -215,50 +247,75 @@ const Landing = () => {
         </section>
 
 
+
         {/* FAQ */}
         <section>
-              <div className=' h-auto py-50 flex justify-center items-center'>
-                <div className='flex flex-col gap-y-9 justify-center w-[1200px]'>
-                    <h1 className='font-black text-[50px] flex justify-center'>Frequently Asked Questions</h1>
-                    <div className='flex flex-col gap-3'>
-                        {accordionData.map((data, index) => {
-                            return <AccordionItem key={index} open={index === open} title={data.title} desc={data.desc} toggle={()=>toggle(index)}/>
-                        })}
-                    </div>
-                    <div className='flex flex-col items-center gap-3'>
-                        <p>Ready to watch? Enter your email to create or restart your membership.</p>
-                        <form action="POST" className='flex gap-x-2'>
-                            <input type="text" placeholder='Email Address...' className='border-2 border-gray-700 dark:border-gray-400 py-3 pl-4 pr-3 md:pr-20 rounded-md'/>
-                            <button className='py-3 px-3 lg:px-6 bg-blue-800! text-white! rounded-md flex gap-2 items-center cursor-pointer' >Get Started  <TbChevronRight /></button>
-                        </form>
-                    </div>
-                </div>
+          <div className='h-auto py-12 md:py-20 lg:py-32 flex justify-center items-center'>
+            <div className='flex flex-col gap-y-9 justify-center w-full max-w-[1200px] px-4'>
+              
+              <h1 className='font-black text-3xl md:text-4xl lg:text-5xl flex justify-center text-center'>
+                Frequently Asked Questions
+              </h1>
+
+              <div className='flex flex-col gap-3'>
+                {accordionData.map((data, index) => {
+                  return <AccordionItem 
+                    key={index}
+                    open={index === open} 
+                    title={data.title} 
+                    desc={data.desc} 
+                    toggle={()=>toggle(index)}/>
+                })}
               </div>
-        </section>
 
+              <div className='flex flex-col items-center gap-3'>
+                <p className='text-center px-3'>
+                  Ready to watch? Enter your email to create or restart your membership.
+                </p>
 
-        {/* FOOTER */}
-        <section>
-          <div className='h-[300px] flex flex-col justify-center items-center'>
-            <div className='flex justify-between gap-[300px]'>
-                <ul className='flex flex-col gap-3'>
-                    <li>Questions? Contact us</li>
-                    <li>Ways to Watch</li>
-                    <li>Account</li>
-                </ul>
-                <ul className='flex flex-col gap-3'>
-                    <li>Cookie Preferences</li>
-                    <li>Help Center</li>
-                    <li>Privacy</li>
-                </ul>
-                <ul className='flex flex-col gap-3'>
-                    <li> </li>
-                    <li>&#169; Copyright - 2023</li>
-                    <li>Nonso</li> 
-                </ul>
+                <form action="POST" className='flex flex-col md:flex-row gap-x-2 gap-y-3 w-full max-w-xl'>
+                  <input 
+                    type="text" 
+                    placeholder='Email Address...' 
+                    className='w-full border-2 border-gray-700 dark:border-gray-400 py-3 pl-4 pr-3 md:pr-20 rounded-md'
+                  />
+                  
+                  <button className='py-3 px-3 lg:px-6 bg-blue-800 hover:bg-blue-900 text-white rounded-md flex gap-2 items-center cursor-pointer w-full md:w-auto'>
+                    Get Started <TbChevronRight />
+                  </button>
+                </form>
+
+              </div>
+
             </div>
           </div>
         </section>
+
+
+
+        {/* FOOTER */}
+            <section>
+              <div className='py-10 md:py-16 flex flex-col justify-center items-center px-4'>
+                <div className='flex flex-col md:flex-row justify-between gap-10 md:gap-20 lg:gap-[300px] text-center md:text-left'>
+                  
+                  <ul className='flex flex-col gap-3'>
+                    <li>Questions? Contact us</li>
+                    <li>Ways to Watch</li>
+                    <li>Account</li>
+                  </ul>
+
+                  <ul className='flex flex-col gap-3'>
+                    <li>Cookie Preferences</li>
+                    <li>Help Center</li>
+                    <li>Privacy</li>
+                  </ul>
+
+                
+
+                </div>
+              </div>
+            </section>
+
     </div>
   )
 }
